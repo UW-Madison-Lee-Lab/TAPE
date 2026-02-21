@@ -1,0 +1,8 @@
+*.json
+*.ipynb
+results/*
+plots/*
+logs/*
+legacy/*
+keys/*
+*__pycache__*
