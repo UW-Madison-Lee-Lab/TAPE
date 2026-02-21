@@ -135,12 +135,6 @@ python src/arithmetic_experiment.py \
   --cost_constraints 0.02
 ```
 
-`run_arithmetic.sh`를 사용하면 기본 budget 세트로 실행할 수도 있습니다:
-
-```bash
-bash run_arithmetic.sh react gpt-4.1-mini
-```
-
 ### 6) Dataset Generation (Optional)
 
 To rebuild the Sokoban dataset:
