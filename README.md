@@ -1,4 +1,4 @@
-<h1 align="center"> <p>**TAPE**: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents</p></h1>
+<h1 align="center"> <p>TAPE: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents</p></h1>
 <h3 align="center">
 <p>
 Jongwon Jeong<sup>1</sup>,
@@ -22,7 +22,7 @@ During execution, TAPE employs constrained decoding to reduce sampling noise, wh
 Experiments across Sokoban, ALFWorld, MuSiQue, and GSM8K-Hard demonstrate that TAPE consistently outperforms existing frameworks, with particularly large gains on hard settings, improving success rates by 21.0 percentage points on hard settings on average, and by 20.0 percentage points for weaker base models on average.
 
 <p align="center">
-  <img src="./figure/Fig1_v4.png" alt="Figure 1: TAPE overview" width="95%">
+  <img src="./figure/fig.png" alt="Figure 1: TAPE overview" width="95%">
 </p>
 <p align="center"><em>
 <b>Figure 1. Overview.</b> We illustrate our work using Sokoban, where the goal is to push all boxes onto target locations.
