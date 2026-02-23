@@ -1,0 +1,738 @@
+{
+  "metadata": {
+    "dataset_info": {
+      "name": "musique",
+      "fold": "validation",
+      "examples_range": {
+        "start": 0,
+        "end": 500
+      },
+      "total_examples": 80,
+      "creation_date": "2025-05-04",
+      "filtering_criteria": "answerable 4-hop questions only",
+      "filtering_note": "Removed 274 duplicate answers. Original: 354, Filtered: 80"
+    }
+  },
+  "examples": [
+    {
+      "id": "3hop1__454441_55349_651302",
+      "question": "What is the birthplace of the man who does the voice of Stan on the series that includes the episode The Hobbit?",
+      "answer": "Denver",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__145290_443779_52195",
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "answer": "Francisco Guterres",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__248929_160713_77246",
+      "question": "What is the meaning of the word that is also a majority religion in the region that became India when the country where Kohat is located was created in the Arabic dictionary?",
+      "answer": "the country of India",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__53690_161697_73916",
+      "question": "What is the average yearly income for the same nationality as the author of The Feminine Mystique?",
+      "answer": "$72,641",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__53690_161697_49779",
+      "question": "Who was a host of Who Wants to be a Millionaire who shares the same nationality as the author of The Feminine Mystique?",
+      "answer": "Chris Harrison",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__694534_160088_821792",
+      "question": "Who is the author of Growing Up this nationality of the creator MacGruder and Loud?",
+      "answer": "Min Zhou",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__742464_15840_36002",
+      "question": "What were the Genesis's advantages over the platform in which Robodemons is played?",
+      "answer": "built on 16-bit architectures and offered improved graphics and sound",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__304722_397371_63959",
+      "question": "When was the last time Duane Courtney's team beat the winner of the 1894-95 FA Cup?",
+      "answer": "1 December 2010",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__765847_831637_91775",
+      "question": "What does SEAL stand for in the branch of military that operates USS Mahan?",
+      "answer": "Sea, Air, and Land",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__469478_15840_36014",
+      "question": "What was Nintendo's limit on games per developer per year for the platform with an abbreviated name that had the game Sunman?",
+      "answer": "five",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__462125_538202_84283",
+      "question": "Who is the owner of the record label that the performer of Days of Our Lives is on?",
+      "answer": "Warner Music Group",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_89859",
+      "question": "When does the sport which has Jim Wilson's Cleveland team as a member start the regular season?",
+      "answer": "March 29, 2018",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__816887_127905_80286",
+      "question": "Who has the most hits in the league of the team that Dick Aylward plays for?",
+      "answer": "Pete Rose",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_46894",
+      "question": "Who has the lowest batting average in the league that Jim Wilson's team plays for?",
+      "answer": "Bill Bergen",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_46748",
+      "question": "What is the longest win streak in the league that Jim Wilson's team plays for?",
+      "answer": "26",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_48717",
+      "question": "Who was the second pick in the 1999 draft of the league Jim Wilson played in?",
+      "answer": "Josh Beckett",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_80487",
+      "question": "When is the All-Star game being played in the league that Jim Wilson plays for?",
+      "answer": "July 11, 2017",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_67954",
+      "question": "Who won the All-Star MVP for the league that the team that Jim Wilson plays for is a part of?",
+      "answer": "Alex Bregman",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_54974",
+      "question": "What is the farthest home run ever hit in the league where the team that Jim Wilson plays for?",
+      "answer": "about 575 feet",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__617062_127905_86588",
+      "question": "What is the longest home run in the history of the league that Jim Wilson's team is a part of?",
+      "answer": "582 feet (177 m)",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__798544_514761_594810",
+      "question": "What record label does the spouse of the performer of Somethin' Bad belong to?",
+      "answer": "Warner Bros. Records",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__31398_2130_2232",
+      "question": "What franchise of the pro soccer organization headquartered in New York, is based in the city that produced the album considered the true portrait of the No Wave movement?",
+      "answer": "New York City FC",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__210639_147339_51423",
+      "question": "What is the name of the castle in the city where the creator of Scene in the Northwest: Portrait of John Henry Lefroy died?",
+      "answer": "Casa Loma",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__389955_132457_47686",
+      "question": "Where do Greyhound buses leave from in the city where the band that recorded the album I'm Alive and on Fire formed?",
+      "answer": "Toronto Coach Terminal",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__92788_648104_13493",
+      "question": "What series of wins did the sports team that the all time highest goal scorer in spain national team was a member or achieve in 2009?",
+      "answer": "continental treble",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__90327_78276_68042",
+      "question": "When did the majority party in the body which approves members of the American Cabinet gain control of the House?",
+      "answer": "the 2010 election",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__87184_90327_76291",
+      "question": "When did the majority party in the House of Representatives gain control of the body which approves members of the Cabinet?",
+      "answer": "January 2015",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__86965_488922_4093",
+      "question": "What is the term for the prime minister in the country where legislators are elected for six year terms?",
+      "answer": "Wazir-e-Azam",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__90327_83076_319330",
+      "question": "Who is the child of the president who suffered a major defeat when the body which approves members of the American cabinet refused to ratify the Versailles treaty?",
+      "answer": "Jessie Woodrow Wilson",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__132795_40769_64047",
+      "question": "When did the luxury division of the company that produces TMG EV P001 change the body style of rx 350?",
+      "answer": "Sales began worldwide in April 2012",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__831456_467331_162182",
+      "question": "What is the region of the country of Sa Thầy and the territory of the Zone 5 Military Museam located?",
+      "answer": "South Central Coast",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__222979_133099_40768",
+      "question": "When did Nissan along with the company that makes the Comstar wheel and the company that makes the Scion open US assembly plants?",
+      "answer": "1981",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__140855_2053_52946",
+      "question": "When is Celebrity Big Brother coming to the network that, along with the original network of Then Came Bronson and ABC, is based in New York?",
+      "answer": "February 7, 2018",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__140786_2053_5289",
+      "question": "What UK label was bought by the major broadcaster that, along with ABC and the network of the show Just Men!?, is based in New York?",
+      "answer": "Oriole Records.",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__664835_650651_7262",
+      "question": "Who was a prominent figure in the radio division of the network of the version of The Biggest Loser: The Final Chance, set in the country where Bokok is located?",
+      "answer": "Walter Sabo",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__102087_214799_259594",
+      "question": "What is the three letter abbreviation for the country, which maintains border troops, that claims Bernd Baumgart as a citizen?",
+      "answer": "GDR",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__131783_131926_13165",
+      "question": "What treaty ceded territory to the US extending west to the body of water by the location of the Minikahda Club?",
+      "answer": "Treaty of Paris",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__131783_131926_90707",
+      "question": "Where does the body of water by the city where The Minikahda Club is located and the Ohio River meet?",
+      "answer": "at the city of Cairo, Illinois",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__131783_131926_89261",
+      "question": "Where does the body of water by the city where The Minikahda Club empty into the Gulf of Mexico?",
+      "answer": "the Mississippi River Delta",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__584774_131926_87157",
+      "question": "What is the direction of flow of the body of water by the city where Uni-Systems is headquartered?",
+      "answer": "rises in northern Minnesota and meanders slowly southwards",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__93066_88342_47738",
+      "question": "When did the team that won the AL East in 2017 last play in the series of games that the MLB MVP award is given after?",
+      "answer": "the 2009 season",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__90098_76623_10557",
+      "question": "What was the language from which the last name Sylvester originated during the era of the person crowned emperor of the west in 800 CE later known as?",
+      "answer": "Medieval Latin",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__157177_625046_613900",
+      "question": "The city where the river that Merchants Bridge crosses over is the capital of which county?",
+      "answer": "Ottawa County",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__765565_326948_78782",
+      "question": "Who was the British general in the birthplace of the performer of Here Come the Girls?",
+      "answer": "General Edward Pakenham",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__640171_228453_86925",
+      "question": "What is the symbol of the Saints from the city that is the location of Blanton's manufacturer's headquarters called?",
+      "answer": "fleur - de-lis",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__305282_282081_73772",
+      "question": "When was the start of the battle of the birthplace of the performer of III?",
+      "answer": "December 14, 1814",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__398232_326948_59893",
+      "question": "When were the monuments built in the Mother-in-Law performer's birthplace?",
+      "answer": "1884,",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__108833_720914_41132",
+      "question": "How many times did the plague occur in the city where the painter of The Bacchanal of the Andrians died?",
+      "answer": "22",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__768500_730460_70315",
+      "question": "Where did Katrina hit the hardest in the Toussaint performer's birthplace?",
+      "answer": "the city of New Orleans",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__28841_547811_80702",
+      "question": "What is the name of the famous bridge in the place of birth of who composed the Concerto in C Major Op 3 6?",
+      "answer": "Rialto Bridge",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__398232_326948_10972",
+      "question": "When did the place of birth of the performer of Mother-in-Law elect its first black Mayor?",
+      "answer": "1970s",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__109113_720914_27537",
+      "question": "Why did Roncalli leave the city where the painter of Venus with a Mirror died?",
+      "answer": "for the conclave in Rome",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__222497_737465_93723",
+      "question": "Who played Spyder, from the \"Once Upon a Time\" film set in the place of death of the composer of Al gran sole carico d'amore?",
+      "answer": "Jason Momoa",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7798",
+      "question": "What was the overwhelming ethnic majority in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "Han nationality",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop2__326964_7861_7713",
+      "question": "How long had the city containing some of the finest and oldest museums in China been the capitol city of Yaxing Coach's headquarters location?",
+      "answer": "about 400 years",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7849",
+      "question": "What other types of theater performance are seen in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "Suzhou pingtan, spoken theatre and puppet theatre",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7846",
+      "question": "Which opera company is based in the city where the Yongle Emperor greeted the leader that the edict was addressed to?",
+      "answer": "Jiangsu Peking Opera Institute",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7795",
+      "question": "In 2011, what was the estimated population of the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "8.11 million",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7702",
+      "question": "What is the meaning of the name of the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "\"Southern Capital\"",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7810",
+      "question": "What was where the Yongle emperor greeted who the edict addressed GDP per person in 2013?",
+      "answer": "RMB 98,174(US$16041)",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__843207_755530_88011",
+      "question": "Where is the Bridge of Sighs located in the place of death of Sonata pian'e forte's composer?",
+      "answer": "passes over the Rio di Palazzo",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7701",
+      "question": "When did the city where the Yongle emperor greeted the person to whom the edict was addressed become the Chinese national capital?",
+      "answer": "Jin dynasty",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7794",
+      "question": "In 2010, what was the population of the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "8.005 million",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7887",
+      "question": "How many tourists does visit annually the city where the Yongle Emperor greeted the one seen addressed on an preserved edict.",
+      "answer": "thousands",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7769",
+      "question": "How many square miles is the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "2,548 sq mi",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7872",
+      "question": "What is the name of the football club from the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "Jiangsu Sainty",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__222497_309482_89834",
+      "question": "When did the merchant of the city where the composer of Al gran sole carico d'amore takes place?",
+      "answer": "16th - century",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7874",
+      "question": "What is the name of the major basketball team from the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "Jiangsu Nangang Basketball Club",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7821",
+      "question": "How many miles of highways are in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "140 mi",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7770",
+      "question": "Where does the Yangtze River flow in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "past the west side and then north side",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7888",
+      "question": "What are three natural attractions in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "lush green parks, natural scenic lakes, small mountains",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7870",
+      "question": "Other than at the 1912 block found in the city where the Yongle Emperor met the leader that the edict was addressed to, where else are there lots of bars?",
+      "answer": "along Shanghai road and its neighbourhood",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7791",
+      "question": "How many parties rule the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "one-party",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7752",
+      "question": "Who moved the capitol from the city where the Yongle emperor greeted the person to whom the edict was addressed to Beijing?",
+      "answer": "Yuan Shikai",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__857_846_7890",
+      "question": "How many places of higher learning are in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+      "answer": "75",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__127821_157828_239539",
+      "question": "Where is the headquarters of Radio Television of this country that has a co-official language that is the same as the language of Olivera Markovic?",
+      "answer": "Pristina",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__465684_160545_60577",
+      "question": "Where did they film The Beach in the country where Bodindecha died?",
+      "answer": "Ko Phi Phi Leh",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__446612_160545_62931",
+      "question": "Where was the film The Beach filmed in the country where Ercole Manfredi died?",
+      "answer": "island Koh Phi Phi",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__462960_160545_34751",
+      "question": "What year did the country where Pao Sarasin was born form an alliance with Japan?",
+      "answer": "1941",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    },
+    {
+      "id": "3hop1__841091_339990_54675",
+      "question": "What mountain can you see from Portland in the state where Knob Mountain is located?",
+      "answer": "Tualatin Mountains",
+      "level": "hard",
+      "type": "musique",
+      "dataset_name": "dgslibisey/MuSiQue",
+      "split": "validation"
+    }
+  ]
+}

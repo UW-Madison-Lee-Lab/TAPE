@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "num_maps_per_bucket": 10,
+    "T_targets": [
+      6,
+      10,
+      14,
+      18,
+      22
+    ],
+    "T_tol": 1,
+    "H": 7,
+    "W": 9,
+    "num_boxes": 1,
+    "reverse_steps_min": 10,
+    "reverse_steps_max": 60,
+    "internal_wall_prob": 0.08,
+    "max_nodes": 200000,
+    "seed": 0,
+    "tries": 200000,
+    "count": 37,
+    "bucket_counts": {
+      "6": 10,
+      "10": 10,
+      "14": 10,
+      "18": 7,
+      "22": 0
+    }
+  },
+  "data": [
+    {
+      "map": "#########\n#     $.#\n#       #\n#       #\n# @     #\n#       #\n#########",
+      "T_star": 7,
+      "reverse_steps": 26,
+      "seed": 548977048,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#     # #\n#     # #\n#       #\n#   $ # #\n# @ .   #\n#########",
+      "T_star": 5,
+      "reverse_steps": 37,
+      "seed": 339513621,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#.  #   #\n#  #  # #\n#$ #@   #\n#      ##\n#       #\n#########",
+      "T_star": 6,
+      "reverse_steps": 56,
+      "seed": 349185522,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#    .  #\n#  $  # #\n#       #\n#  @    #\n#########",
+      "T_star": 6,
+      "reverse_steps": 25,
+      "seed": 862585179,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n# #     #\n#       #\n#   @$  #\n#       #\n#     . #\n#########",
+      "T_star": 5,
+      "reverse_steps": 42,
+      "seed": 525367680,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#   @  ##\n#     # #\n#  $    #\n# .     #\n#       #\n#########",
+      "T_star": 6,
+      "reverse_steps": 55,
+      "seed": 134014482,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#  @  ###\n#$      #\n#      ##\n#       #\n#.    # #\n#########",
+      "T_star": 5,
+      "reverse_steps": 48,
+      "seed": 587583849,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#. $    #\n##    # #\n#     ###\n#   @   #\n#       #\n#########",
+      "T_star": 5,
+      "reverse_steps": 47,
+      "seed": 308869635,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#  .#   #\n#       #\n# $   # #\n#   @   #\n#########",
+      "T_star": 7,
+      "reverse_steps": 44,
+      "seed": 733900802,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#   #   #\n#       #\n#  @    #\n#       #\n##   $ .#\n#########",
+      "T_star": 5,
+      "reverse_steps": 60,
+      "seed": 383720486,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#@    $ #\n#  # .  #\n#       #\n##      #\n#########",
+      "T_star": 10,
+      "reverse_steps": 40,
+      "seed": 601095367,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#      ##\n#  #    #\n#      @#\n#       #\n# $.    #\n#########",
+      "T_star": 9,
+      "reverse_steps": 53,
+      "seed": 633294196,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n# #    ##\n#    $  #\n#@      #\n#   .   #\n#       #\n#########",
+      "T_star": 11,
+      "reverse_steps": 36,
+      "seed": 622442780,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#     $ #\n# @ .   #\n#  #    #\n# ##    #\n#########",
+      "T_star": 11,
+      "reverse_steps": 55,
+      "seed": 333179489,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#   .   #\n#       #\n#    @ ##\n#  $    #\n#       #\n#########",
+      "T_star": 10,
+      "reverse_steps": 50,
+      "seed": 93331546,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#  #    #\n#       #\n#    @  #\n#       #\n# $  .  #\n#########",
+      "T_star": 9,
+      "reverse_steps": 21,
+      "seed": 324744672,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#@      #\n#       #\n# #   $ #\n# ## .  #\n#########",
+      "T_star": 10,
+      "reverse_steps": 50,
+      "seed": 836869774,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#  .  $ #\n#       #\n#@ #    #\n# #     #\n#########",
+      "T_star": 11,
+      "reverse_steps": 37,
+      "seed": 737035826,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n##   ## #\n#  #$  ##\n#    ## #\n#  #.   #\n#  @    #\n#########",
+      "T_star": 9,
+      "reverse_steps": 54,
+      "seed": 129405058,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n# #     #\n#$      #\n#@#    ##\n#.      #\n#########",
+      "T_star": 10,
+      "reverse_steps": 55,
+      "seed": 510727950,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#  .   @#\n#  $    #\n#  ##   #\n###     #\n#       #\n#########",
+      "T_star": 15,
+      "reverse_steps": 49,
+      "seed": 38295507,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#     ###\n#  $#   #\n# #     #\n#   .   #\n#@     ##\n#########",
+      "T_star": 15,
+      "reverse_steps": 56,
+      "seed": 32964780,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#   .   #\n##   @  #\n# $     #\n#       #\n#########",
+      "T_star": 13,
+      "reverse_steps": 48,
+      "seed": 496151876,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n##      #\n##    $ #\n#  .    #\n#@    # #\n#       #\n#########",
+      "T_star": 14,
+      "reverse_steps": 56,
+      "seed": 516152880,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#     @ #\n#   .#  #\n# #$    #\n#     # #\n#       #\n#########",
+      "T_star": 14,
+      "reverse_steps": 51,
+      "seed": 826349843,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#  $   @#\n#     # #\n#      .#\n#   #   #\n#########",
+      "T_star": 13,
+      "reverse_steps": 45,
+      "seed": 859847946,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n# $    .#\n#  #@#  #\n#  #    #\n#       #\n#       #\n#########",
+      "T_star": 13,
+      "reverse_steps": 44,
+      "seed": 867265460,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#   #   #\n#     $ #\n#@    # #\n#    .# #\n#       #\n#########",
+      "T_star": 14,
+      "reverse_steps": 55,
+      "seed": 215815017,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n# @     #\n#     # #\n#       #\n##   #  #\n#.    $ #\n#########",
+      "T_star": 14,
+      "reverse_steps": 56,
+      "seed": 909380355,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n# ###   #\n#    $  #\n##      #\n#     @ #\n#  . #  #\n#########",
+      "T_star": 13,
+      "reverse_steps": 49,
+      "seed": 207108721,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n# @#    #\n#  #  # #\n#    ## #\n#   # $.#\n#  #    #\n#########",
+      "T_star": 17,
+      "reverse_steps": 59,
+      "seed": 364279487,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#     $ #\n#.  #   #\n##    # #\n#@      #\n#########",
+      "T_star": 17,
+      "reverse_steps": 58,
+      "seed": 485468870,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#  .    #\n#       #\n#  $ # @#\n#  #    #\n#    #  #\n#########",
+      "T_star": 17,
+      "reverse_steps": 46,
+      "seed": 547410392,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#  # # ##\n# $ #   #\n#      ##\n##  .@  #\n#       #\n#########",
+      "T_star": 18,
+      "reverse_steps": 48,
+      "seed": 152065435,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n##  @   #\n# #    .#\n# ##    #\n#   $ # #\n#     # #\n#########",
+      "T_star": 17,
+      "reverse_steps": 56,
+      "seed": 836613085,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#     + #\n#      ##\n#       #\n# $     #\n#       #\n#########",
+      "T_star": 17,
+      "reverse_steps": 60,
+      "seed": 264858891,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "#########\n#       #\n#   #$  #\n##     .#\n#       #\n#@      #\n#########",
+      "T_star": 17,
+      "reverse_steps": 59,
+      "seed": 481524018,
+      "H": 7,
+      "W": 9,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    }
+  ]
+}
