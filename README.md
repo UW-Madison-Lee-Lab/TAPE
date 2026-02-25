@@ -35,21 +35,12 @@ Experiments across Sokoban, ALFWorld, MuSiQue, and GSM8K-Hard demonstrate that T
 ### 1) Environment and Dependencies
 
 This repository uses `requirements.txt` for dependency setup.
-The file was exported from the current `llm-tool` environment (Python `3.10.18`).
-
 Recommended setup in a fresh conda environment:
 
 ```bash
 conda create -n tape python=3.10 -y
 conda activate tape
 pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-If you want to keep using your existing `llm-tool` environment:
-
-```bash
-conda activate llm-tool
 pip install -r requirements.txt
 ```
 
