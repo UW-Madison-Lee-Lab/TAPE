@@ -10,7 +10,8 @@ Kangwook Lee<sup>1,2,3</sup>,
 <sup>2</sup>KRAFTON &nbsp;·&nbsp;
 <sup>3</sup>Ludo Robotics
 </p>
-
+    <a href="https://arxiv.org/abs/2602.19633">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2602.19633-b31b1b.svg">
 </h3>
 
 Language Model (LM) agents have demonstrated remarkable capabilities in solving tasks that require multiple interactions with the environment. 
@@ -143,4 +144,15 @@ To rebuild the Sokoban dataset:
 python src/sokoban_benchmark.py \
   --build_dataset \
   --dataset_path data/dataset.json
+```
+
+### Citation
+```
+@article{jeong2026tape,
+      title={{TAPE}: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents}, 
+      author={Jeong, Jongwon and Kim, Jungtaek and Lee, Kangwook},
+      year={2026},
+      eprint={2602.19633},
+      archivePrefix = {arXiv}
+}
 ```
