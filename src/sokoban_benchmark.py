@@ -49,6 +49,7 @@ def main():
     ap.add_argument("--reverse_steps_min", type=int, default=10, help="Minimum reverse-play steps for solvable map generation.")
     ap.add_argument("--reverse_steps_max", type=int, default=60, help="Maximum reverse-play steps for solvable map generation.")
     ap.add_argument("--internal_wall_prob", type=float, default=0.08, help="Probability of internal walls during map generation.")
+    ap.add_argument("--max_tries", type=int, default=200000, help="Maximum number of map generation attempts.")
 
     ap.add_argument("--episodes", type=int, default=200, help="Episodes per map for evaluation.")
     ap.add_argument("--run_T_eval", action="store_true", help="Run T* sweep evaluation.")
@@ -77,6 +78,7 @@ def main():
             internal_wall_prob=args.internal_wall_prob,
             max_nodes=args.max_nodes,
             seed=args.seed,
+            max_tries=args.max_tries,
         )
 
     if not (args.run_T_eval or args.run_N_eval):

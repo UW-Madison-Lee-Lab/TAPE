@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "num_maps_per_bucket": 20,
+    "T_targets": [
+      25
+    ],
+    "T_tol": 2,
+    "H": 9,
+    "W": 11,
+    "num_boxes": 1,
+    "reverse_steps_min": 30,
+    "reverse_steps_max": 200,
+    "internal_wall_prob": 0.08,
+    "max_nodes": 500000,
+    "seed": 42,
+    "tries": 273632,
+    "count": 20,
+    "bucket_counts": {
+      "25": 20
+    }
+  },
+  "data": [
+    {
+      "map": "###########\n# # #     #\n#         #\n## #$     #\n#         #\n#@  #     #\n#    #    #\n#  .     ##\n###########",
+      "T_star": 23,
+      "reverse_steps": 88,
+      "seed": 439979241,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#         #\n#        ##\n# $  #    #\n###     @ #\n#   #     #\n#      #  #\n#  #  ##. #\n###########",
+      "T_star": 26,
+      "reverse_steps": 187,
+      "seed": 495534259,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#         #\n#@        #\n#   # . # #\n#    #    #\n#     #   #\n#     $   #\n#   #     #\n###########",
+      "T_star": 25,
+      "reverse_steps": 164,
+      "seed": 993592447,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#       # #\n##  @     #\n#    .    #\n#      #  #\n#       # #\n#    # $  #\n#         #\n###########",
+      "T_star": 23,
+      "reverse_steps": 132,
+      "seed": 854000430,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#       #.#\n#     #$  #\n#         #\n#      @ ##\n#       ###\n#         #\n#     #   #\n###########",
+      "T_star": 24,
+      "reverse_steps": 191,
+      "seed": 876537537,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#  #   #  #\n###     $ #\n#    #    #\n#         #\n# #   #   #\n#  .      #\n#   @     #\n###########",
+      "T_star": 23,
+      "reverse_steps": 176,
+      "seed": 29833487,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#   # #   #\n#  #     ##\n#  $      #\n#   # #   #\n# #. # # ##\n#  @      #\n#     #   #\n###########",
+      "T_star": 26,
+      "reverse_steps": 170,
+      "seed": 811812730,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n# #  #    #\n#     $   #\n##  #     #\n#         #\n###      ##\n# .       #\n#@   #    #\n###########",
+      "T_star": 23,
+      "reverse_steps": 120,
+      "seed": 208313506,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n##        #\n#   ## # @#\n#      #  #\n#      .  #\n##        #\n# $       #\n#       # #\n###########",
+      "T_star": 23,
+      "reverse_steps": 149,
+      "seed": 566985664,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n# @       #\n#       # #\n#     .  ##\n#         #\n#    ## $ #\n#  #   #  #\n#        ##\n###########",
+      "T_star": 23,
+      "reverse_steps": 183,
+      "seed": 822959030,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#@        #\n#   .     #\n#   # #   #\n##   #    #\n#   #     #\n#     $   #\n#      #  #\n###########",
+      "T_star": 23,
+      "reverse_steps": 161,
+      "seed": 944658277,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#    #    #\n# $       #\n# #       #\n##    #   #\n#   #.    #\n#  #@     #\n#      #  #\n###########",
+      "T_star": 23,
+      "reverse_steps": 183,
+      "seed": 230582261,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#         #\n# $       #\n#         #\n# #    #  #\n# #     . #\n#  #   #  #\n##     # @#\n###########",
+      "T_star": 24,
+      "reverse_steps": 200,
+      "seed": 528785028,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n# # #     #\n#       @ #\n#       # #\n### .     #\n#         #\n#  $      #\n#  # #    #\n###########",
+      "T_star": 23,
+      "reverse_steps": 197,
+      "seed": 472626455,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#@        #\n##        #\n#         #\n#         #\n## .      #\n#       $ #\n#   #  #  #\n###########",
+      "T_star": 23,
+      "reverse_steps": 95,
+      "seed": 953699177,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#       # #\n#        ##\n# #  $    #\n##  ##    #\n# #    #  #\n##   .#  ##\n#@        #\n###########",
+      "T_star": 24,
+      "reverse_steps": 182,
+      "seed": 65928310,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#        ##\n#  .      #\n#    #    #\n# #       #\n# #   #   #\n# $    #  #\n# #  @    #\n###########",
+      "T_star": 24,
+      "reverse_steps": 195,
+      "seed": 363969616,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#   #     #\n#   #     #\n#       $##\n#  #      #\n#         #\n#  .    # #\n# # @     #\n###########",
+      "T_star": 23,
+      "reverse_steps": 178,
+      "seed": 403802137,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#         #\n#     @   #\n#     #   #\n#       . #\n## #      #\n##$       #\n#         #\n###########",
+      "T_star": 25,
+      "reverse_steps": 194,
+      "seed": 836395197,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    },
+    {
+      "map": "###########\n#  #  #  @#\n#     .#  #\n#    #    #\n#         #\n#       # #\n# $#   #  #\n##    #   #\n###########",
+      "T_star": 23,
+      "reverse_steps": 174,
+      "seed": 687764784,
+      "H": 9,
+      "W": 11,
+      "num_boxes": 1,
+      "internal_wall_prob": 0.08
+    }
+  ]
+}
