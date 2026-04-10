@@ -138,12 +138,12 @@ python src/sokoban_benchmark.py \
 ```
 
 ### Citation
+
 ```
 @article{jeong2026tape,
-      title={{TAPE}: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents}, 
-      author={Jeong, Jongwon and Kim, Jungtaek and Lee, Kangwook},
-      year={2026},
-      eprint={2602.19633},
-      archivePrefix = {arXiv}
+    title={{TAPE}: Tool-Guided Adaptive Planning and Constrained Execution in Language Model Agents},
+    author={Jeong, Jongwon and Kim, Jungtaek and Lee, Kangwook},
+    journal={arXiv preprint arXiv:2602.19633},
+    year={2026}
 }
 ```
